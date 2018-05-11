@@ -2,12 +2,12 @@ package com.kodilla.testing.calculator;
 
 public class Calculator {
 
-    public static int Add(int a, int b) {
+    public static int add(int a, int b) {
 
         return (a + b);
     }
 
-    public static int Subtract(int a, int b) {
+    public static int subtract(int a, int b) {
 
         return (a - b);
     }
