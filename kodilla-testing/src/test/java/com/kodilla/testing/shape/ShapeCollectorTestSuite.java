@@ -2,9 +2,7 @@ package com.kodilla.testing.shape;
 
 import org.junit.Assert;
 import org.junit.Test;
-import shape.Shape;
-import shape.ShapeCollector;
-import shape.Square;
+
 
 public class ShapeCollectorTestSuite {
 
