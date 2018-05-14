@@ -43,7 +43,7 @@ public class StatisticsTest {
 
         //then
         Assert.assertEquals(500, cas.averagePostPerUser(cas.getPostsCount(), cas.getUserCount()), 0);
-        Assert.assertEquals(0, cas.averageCommentsPerPost(cas.getCommentsCount(), cas.getUserCount()), 0);
+        Assert.assertEquals(0, cas.averageCommentsPerPost(cas.getCommentsCount(), cas.getPostsCount()), 0);
         Assert.assertEquals(0, cas.averageCommentsPerUser(cas.getCommentsCount(), cas.getUserCount()), 0);
 
         //gdy liczba komentarzy = 0
