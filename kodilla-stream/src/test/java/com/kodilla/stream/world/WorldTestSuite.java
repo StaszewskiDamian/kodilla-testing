@@ -1,6 +1,5 @@
 package com.kodilla.stream.world;
 
-import com.kodilla.stream.sand.Europe;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +11,6 @@ public class WorldTestSuite {
 
     @Test
     public void testGetPeopleQuantity() {
-
         //given
         List<Country> europeList = new ArrayList<>();
         europeList.add(new Country("Poland", new BigDecimal(40000000)));

@@ -1,9 +1,5 @@
 package com.kodilla.stream.world;
 
-
-import com.kodilla.stream.invoice.simple.SimpleItem;
-
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.stream.Collectors;
 
