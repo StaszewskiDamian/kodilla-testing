@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9779d7ab-5dca-4de4-a7cc-ed0af64bada6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/TaskList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/resources/file/names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -17,6 +21,9 @@
     <ignored path="$PROJECT_DIR$/kodilla-stream/.gradle/" />
     <ignored path="$PROJECT_DIR$/kodilla-stream/build/" />
     <ignored path="$PROJECT_DIR$/kodilla-stream/out/" />
+    <ignored path="$PROJECT_DIR$/kodilla-exception/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kodilla-exception/build/" />
+    <ignored path="$PROJECT_DIR$/kodilla-exception/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,107 +47,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Task.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="861">
-                  <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#745#746#0" expanded="true" />
-                    <element signature="e#773#774#0" expanded="true" />
-                    <element signature="e#811#812#0" expanded="true" />
-                    <element signature="e#845#846#0" expanded="true" />
-                    <element signature="e#882#883#0" expanded="true" />
-                    <element signature="e#917#918#0" expanded="true" />
-                    <element signature="e#949#950#0" expanded="true" />
-                    <element signature="e#979#980#0" expanded="true" />
-                    <element signature="e#1016#1017#0" expanded="true" />
-                    <element signature="e#1046#1047#0" expanded="true" />
-                    <element signature="e#1084#1085#0" expanded="true" />
-                    <element signature="e#1115#1116#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/TaskList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-57">
-                  <caret column="29" selection-start-column="29" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#250#251#0" expanded="true" />
-                    <element signature="e#282#283#0" expanded="true" />
-                    <element signature="e#320#321#0" expanded="true" />
-                    <element signature="e#351#352#0" expanded="true" />
-                    <element signature="e#395#396#0" expanded="true" />
-                    <element signature="e#436#437#0" expanded="true" />
-                    <element signature="e#472#473#0" expanded="true" />
-                    <element signature="e#518#519#0" expanded="true" />
-                    <element signature="e#549#550#0" expanded="true" />
-                    <element signature="e#576#577#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-6">
-                  <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#250#251#0" expanded="true" />
-                    <element signature="e#282#283#0" expanded="true" />
-                    <element signature="e#332#333#0" expanded="true" />
-                    <element signature="e#371#372#0" expanded="true" />
-                    <element signature="e#427#428#0" expanded="true" />
-                    <element signature="e#476#477#0" expanded="true" />
-                    <element signature="e#520#521#0" expanded="true" />
-                    <element signature="e#569#570#0" expanded="true" />
-                    <element signature="e#600#601#0" expanded="true" />
-                    <element signature="e#627#628#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BoardTestSuite.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="StreamMain.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FirstChallenge.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,6 +97,10 @@
               <ExternalProjectPojo>
                 <option name="name" value="kodilla-testing" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":kodilla-exception" />
+                <option name="path" value="$PROJECT_DIR$/kodilla-exception" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":kodilla-stream" />
@@ -344,6 +265,137 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'kodilla-testing'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kodilla-exception">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':kodilla-exception'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':kodilla-exception'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':kodilla-exception'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':kodilla-exception'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':kodilla-exception'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':kodilla-exception'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':kodilla-exception'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':kodilla-exception'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':kodilla-exception'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-exception" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -625,17 +677,18 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7631300662030" />
+        <entry key="$PROJECT_DIR$" value="9159011006062" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
+        <entry key="$PROJECT_DIR$/kodilla-exception/build.gradle" value="400999662" />
         <entry key="$PROJECT_DIR$/kodilla-stream/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/kodilla-testing" value="6104650233637" />
         <entry key="$PROJECT_DIR$/kodilla-testing/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/kodilla-testing/build.gradle" value="3973852010" />
         <entry key="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/kodilla-testing/settings.gradle" value="2985983785" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3190250539" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="254758720" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -649,6 +702,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/kodilla-exception">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/kodilla-exception" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -855,11 +915,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape/ShapeCollectorTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/tdd/ForumTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/library/Book.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/library/LibraryUser.java" />
         <option value="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/library/LibraryDatabase.java" />
         <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/SaySomething.java" />
@@ -906,6 +961,11 @@
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/TaskList.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/resources/file/names.txt" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallange.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" />
       </list>
     </option>
   </component>
@@ -942,37 +1002,86 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -980,93 +1089,23 @@
               <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="beautifier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="forumuser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="world" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -1080,6 +1119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="IOException&#9;PSI&#9;JAVA://java.io.IOException" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape" />
@@ -1108,55 +1148,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BoardTestSuite.testAddTaskListAverageWorkingOnTask">
+  <component name="RunManager" selected="Application.FirstChallenge">
+    <configuration name="ExceptionModuleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.main.ExceptionModuleRunner" />
+      <module name="kodilla-exception_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.exception.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FirstChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.test.FirstChallenge" />
+      <module name="kodilla-exception_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.exception.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ArrayOperationsTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-stream_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.stream.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.stream.array" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.array.ArrayOperationsTestSuite" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BoardTestSuite.testAddTaskList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-stream_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.stream.portfolio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.stream.portfolio" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.portfolio.BoardTestSuite" />
-      <option name="METHOD_NAME" value="testAddTaskList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-stream_test" />
@@ -1289,19 +1305,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArrayOperationsTestSuite" />
-      <item itemvalue="JUnit.BoardTestSuite.testAddTaskList" />
       <item itemvalue="JUnit.BoardTestSuite.testAddTaskListFindOutdatedTasks" />
       <item itemvalue="JUnit.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
       <item itemvalue="JUnit.BoardTestSuite.testAddTaskListFindLongTasks" />
+      <item itemvalue="Application.ExceptionModuleRunner" />
+      <item itemvalue="Application.FirstChallenge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstChallenge" />
+        <item itemvalue="Application.ExceptionModuleRunner" />
         <item itemvalue="JUnit.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
         <item itemvalue="JUnit.BoardTestSuite.testAddTaskListFindLongTasks" />
         <item itemvalue="JUnit.BoardTestSuite.testAddTaskListFindOutdatedTasks" />
-        <item itemvalue="JUnit.BoardTestSuite.testAddTaskList" />
-        <item itemvalue="JUnit.ArrayOperationsTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -1316,23 +1332,11 @@
       <option name="presentableId" value="Default" />
       <updated>1525797260571</updated>
       <workItem from="1525797265524" duration="23461000" />
-      <workItem from="1526457913996" duration="58213000" />
+      <workItem from="1526457913996" duration="63986000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 10h 43m 37s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 10h 45m 36s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 10h 46m 29s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 10h 47m 17s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BoardTestSuite_testAddTaskListFindLongTasks - 2018.05.21 at 11h 01m 45s.xml">
       <configuration name="BoardTestSuite.testAddTaskListFindLongTasks" configurationId="JUnit" />
     </history-entry>
@@ -1351,9 +1355,21 @@
     <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 11h 11m 25s.xml">
       <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 11h 11m 59s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 11h 12m 13s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 11h 12m 28s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2018.05.21 at 11h 12m 59s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114609000" />
+    <option name="totallyTimeSpent" value="120382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1466,52 +1482,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/reference/FunctionalCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/SaySomething.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/MathExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExecuteSaySomething.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
@@ -1837,19 +1811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/world/WorldTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1969,8 +1930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="306">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
@@ -1987,13 +1948,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+        <state relative-caret-position="402">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/resources/file/names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
         </state>
       </provider>
     </entry>
