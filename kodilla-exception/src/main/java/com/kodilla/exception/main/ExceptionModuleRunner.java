@@ -10,7 +10,7 @@ public class ExceptionModuleRunner {
         FileReader fileReader = new FileReader();
         try {
             fileReader.readFile();
-        } catch (NullPointerException o) {
+        } catch (RuntimeException o) {
             System.out.println("Found exception: " + o);
         } catch (FileReaderException o) {
             System.out.println("Found exception: " + o);
