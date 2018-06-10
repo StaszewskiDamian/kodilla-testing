@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9779d7ab-5dca-4de4-a7cc-ed0af64bada6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-exception/out/production/classes/com/kodilla/exception/test/FlightLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/out/production/classes/com/kodilla/exception/test/FlightLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/com/kodilla/good/patterns/challenges/airlines/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/com/kodilla/good/patterns/challenges/airlines/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/out/test/classes/com/kodilla/stream/portfolio/BoardTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/out/test/classes/com/kodilla/stream/portfolio/BoardTestSuite.class" afterDir="false" />
-    </list>
+    <list default="true" id="9779d7ab-5dca-4de4-a7cc-ed0af64bada6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -53,7 +46,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RpsRunner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1727,7 +1730,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187998000" />
+    <option name="totallyTimeSpent" value="188375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1761,8 +1764,8 @@
       <window_info anchor="bottom" id="Version Control" order="19" weight="0.32972136" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49761903" weight="0.32817337" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="18" sideWeight="0.39722863" weight="0.32507738" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60277134" visible="true" weight="0.18819776" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Terminal" order="18" sideWeight="0.39722863" visible="true" weight="0.32352942" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60277134" visible="true" weight="0.18819776" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="8" side_tool="true" />
@@ -1868,13 +1871,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
@@ -2207,6 +2203,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
