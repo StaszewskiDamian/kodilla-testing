@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9779d7ab-5dca-4de4-a7cc-ed0af64bada6" name="Default" comment="" />
+    <list default="true" id="9779d7ab-5dca-4de4-a7cc-ed0af64bada6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,6 +23,12 @@
     <ignored path="$PROJECT_DIR$/kodilla-rps/.gradle/" />
     <ignored path="$PROJECT_DIR$/kodilla-rps/build/" />
     <ignored path="$PROJECT_DIR$/kodilla-rps/out/" />
+    <ignored path="$PROJECT_DIR$/kodilla-spring-intro/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kodilla-spring-intro/build/" />
+    <ignored path="$PROJECT_DIR$/kodilla-spring-intro/out/" />
+    <ignored path="$PROJECT_DIR$/kodilla-spring/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kodilla-spring/build/" />
+    <ignored path="$PROJECT_DIR$/kodilla-spring/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +43,9 @@
     <projectState path="$PROJECT_DIR$/kodilla-rps">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/kodilla-spring">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/kodilla-testing">
       <ProjectState />
     </projectState>
@@ -46,17 +58,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RpsRunner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,6 +76,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="C:\Users\developer\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
         <entry key="$PROJECT_DIR$/kodilla-rps" value="C:\Users\developer\.gradle\wrapper\dists\gradle-4.5.1-bin\a5vbgfvpwtoqz8v2cdivxz28k\gradle-4.5.1" />
+        <entry key="$PROJECT_DIR$/kodilla-spring" value="C:\Users\developer\.gradle\wrapper\dists\gradle-4.5.1-bin\a5vbgfvpwtoqz8v2cdivxz28k\gradle-4.5.1" />
         <entry key="$PROJECT_DIR$/kodilla-testing" value="C:\Users\developer\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
       </map>
     </option>
@@ -81,6 +84,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="4.4" />
         <entry key="$PROJECT_DIR$/kodilla-rps" value="4.5.1" />
+        <entry key="$PROJECT_DIR$/kodilla-spring" value="4.5.1" />
         <entry key="$PROJECT_DIR$/kodilla-testing" value="4.4" />
       </map>
     </option>
@@ -105,6 +109,22 @@
         <entry>
           <key>
             <ExternalProjectPojo>
+              <option name="name" value="kodilla-spring" />
+              <option name="path" value="$PROJECT_DIR$/kodilla-spring" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="kodilla-spring" />
+                <option name="path" value="$PROJECT_DIR$/kodilla-spring" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
               <option name="name" value="kodilla-testing" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
@@ -122,6 +142,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":kodilla-good-patterns" />
                 <option name="path" value="$PROJECT_DIR$/kodilla-good-patterns" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":kodilla-spring-intro" />
+                <option name="path" value="$PROJECT_DIR$/kodilla-spring-intro" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":kodilla-stream" />
@@ -746,6 +770,330 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/kodilla-spring">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'kodilla-spring'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'kodilla-spring'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'kodilla-spring'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'kodilla-spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kodilla-spring-intro">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':kodilla-spring-intro'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':kodilla-spring-intro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':kodilla-spring-intro'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':kodilla-spring-intro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':kodilla-spring-intro'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':kodilla-spring-intro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':kodilla-spring-intro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':kodilla-spring-intro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':kodilla-spring-intro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-spring-intro" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/kodilla-stream">
           <value>
             <list>
@@ -1022,23 +1370,29 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10700340212120" />
+        <entry key="$PROJECT_DIR$" value="12228965155374" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/kodilla-exception/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/kodilla-good-patterns/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/kodilla-rps" value="6114487445847" />
+        <entry key="$PROJECT_DIR$/kodilla-rps/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/kodilla-rps/build.gradle" value="185640826" />
         <entry key="$PROJECT_DIR$/kodilla-rps/gradle/wrapper/gradle-wrapper.properties" value="2881256037" />
         <entry key="$PROJECT_DIR$/kodilla-rps/settings.gradle" value="251425031" />
+        <entry key="$PROJECT_DIR$/kodilla-spring" value="6114496578678" />
+        <entry key="$PROJECT_DIR$/kodilla-spring-intro/build.gradle" value="400999662" />
+        <entry key="$PROJECT_DIR$/kodilla-spring/build.gradle" value="802671308" />
+        <entry key="$PROJECT_DIR$/kodilla-spring/gradle/wrapper/gradle-wrapper.properties" value="2881256037" />
+        <entry key="$PROJECT_DIR$/kodilla-spring/settings.gradle" value="1426233906" />
         <entry key="$PROJECT_DIR$/kodilla-stream/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/kodilla-testing" value="6114480151797" />
         <entry key="$PROJECT_DIR$/kodilla-testing/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/kodilla-testing/build.gradle" value="4242769687" />
         <entry key="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/kodilla-testing/settings.gradle" value="2985983785" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="851279117" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3734323610" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1066,6 +1420,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/kodilla-good-patterns" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/kodilla-spring-intro">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/kodilla-spring-intro" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1276,6 +1637,120 @@
             </ExternalProjectBuildClasspathPojo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/kodilla-spring">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/kodilla-spring">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.2.RELEASE/d283fee446dd4fb54100c034fe8cecfa0a869498/spring-boot-gradle-plugin-2.0.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.2.RELEASE/b35e0fcf1acca8c38899af0f06269955f1bf553c/spring-boot-gradle-plugin-2.0.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.2.RELEASE/fb36a0b30c22e3f260e3dad1c54a12c181c36228/spring-boot-loader-tools-2.0.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.2.RELEASE/f1460752eda55972571a9651fcdfcb6cceef183d/spring-boot-loader-tools-2.0.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/e9f2761e13da4228793ee5fcaa983889e68c4c61/dependency-management-plugin-1.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/43a23e357fa7b187c261520914c0b001ea1a62a2/commons-compress-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.6.RELEASE/86ca74938ace10c2aff781b6d93888435baf7474/spring-core-5.0.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.6.RELEASE/984a52455b1be596b7f1a29f62d21d2f483eb764/spring-core-5.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.6.RELEASE/ca475012ae43a0745d3cfc0bae4e52de0fddc29f/spring-jcl-5.0.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.6.RELEASE/295ee4e8657e9c1fd327735c01d5fbce339cc44d/spring-jcl-5.0.6.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/kodilla-spring" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="kodilla-spring" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-base-services-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-base-services-groovy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-build-cache-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-build-option-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-cli-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-core-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-core-api-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-docs-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-installation-beacon-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-jvm-services-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-kotlin-dsl-0.14.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-kotlin-dsl-tooling-builders-0.14.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-kotlin-dsl-tooling-models-0.14.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-launcher-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-logging-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-messaging-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-model-core-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-model-groovy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-persistent-cache-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-process-services-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-resources-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-runtime-api-info-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-tooling-api-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/gradle-wrapper-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-announce-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-antlr-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-build-cache-http-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-build-comparison-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-build-init-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-code-quality-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-composite-builds-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-dependency-management-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-diagnostics-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-ear-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-ide-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-ide-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-ide-play-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-ivy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-jacoco-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-javascript-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-language-groovy-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-language-java-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-language-jvm-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-language-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-language-scala-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-maven-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-osgi-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-platform-base-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-platform-jvm-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-platform-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-platform-play-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-plugin-development-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-plugin-use-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-plugins-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-publish-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-reporting-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-resources-gcs-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-resources-http-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-resources-s3-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-resources-sftp-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-scala-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-signing-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-test-kit-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-testing-base-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-testing-jvm-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-testing-native-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-tooling-api-builders-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-version-control-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/gradle-workers-4.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/kodilla-spring/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/kodilla-spring/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/kodilla-testing">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -1379,7 +1854,8 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/kodilla-rps" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/kodilla-rps" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/kodilla-spring" value="IMPORT" />
         <entry key="$PROJECT_DIR$/kodilla-testing" value="RE_IMPORT" />
       </map>
     </option>
@@ -1472,37 +1948,70 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-rps" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-rps" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-rps" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-rps" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-rps" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rps" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -1641,6 +2150,10 @@
       <module name="kodilla-rps_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.rps.KodillaRpsApplication" />
     </configuration>
+    <configuration name="KodillaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kodilla-spring_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.KodillaSpringApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1670,6 +2183,7 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Spring Boot.KodillaRpsApplication" />
       <item itemvalue="Application.RpsRunner" />
+      <item itemvalue="Spring Boot.KodillaSpringApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -1730,7 +2244,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188375000" />
+    <option name="totallyTimeSpent" value="190963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1764,8 +2278,8 @@
       <window_info anchor="bottom" id="Version Control" order="19" weight="0.32972136" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49761903" weight="0.32817337" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Terminal" order="18" sideWeight="0.39722863" visible="true" weight="0.32352942" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60277134" visible="true" weight="0.18819776" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="18" sideWeight="0.39722863" weight="0.32352942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60277134" visible="true" weight="0.18819776" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="8" side_tool="true" />
@@ -1801,36 +2315,37 @@
       <window_info id="Designer" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32972136" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32972136" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49761903" weight="0.32817337" />
+      <window_info anchor="bottom" id="Spring" order="0" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49761903" visible="true" weight="0.32817337" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920633" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49920633" visible="true" weight="0.32972136" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50238097" side_tool="true" visible="true" weight="0.32817337" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49920633" weight="0.32972136" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50238097" side_tool="true" weight="0.32817337" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49920633" weight="0.32972136" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32972136" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32972136" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18571429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18819776" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972136" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32972136" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3993808" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1871,41 +2386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/resources/file/names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/io/IOException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-703">
@@ -2206,10 +2686,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-spring-intro/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/RpsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="564">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/game/Choice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/game/CpuMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/game/ScoreValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/game/UserMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
