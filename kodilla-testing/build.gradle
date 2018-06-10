@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile('junit:junit:4.12')
+    testCompile('org.mockito:mockito-all:1.10.19')
+}
+||||||| merged common ancestors
+=======
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+>>>>>>> 0d31163633bf038129a14d7a2e076b0e248cf7a4
