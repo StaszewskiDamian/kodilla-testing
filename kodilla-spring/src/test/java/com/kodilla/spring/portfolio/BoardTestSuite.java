@@ -21,6 +21,6 @@ public class BoardTestSuite {
         //then
         Assert.assertEquals("Zadanie 1", board.getToDoList().getTasks().get(0));
         Assert.assertEquals("Zadanie 2", board.getDoneList().getTasks().get(0));
-        Assert.assertEquals("Zadanie 1", board.getDoneList().getTasks().get(0));
+        Assert.assertEquals("Zadanie 3", board.getInProgressList().getTasks().get(0));
     }
 }
