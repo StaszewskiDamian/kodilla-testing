@@ -33,6 +33,17 @@
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle-4.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kodilla-patterns2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-rps" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../gradle-4.7" />
         <option name="modules">

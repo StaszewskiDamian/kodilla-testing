@@ -5,6 +5,11 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedNativeQuery(
+        name = "Employee.findEmployeeByPartName",
+        query = "SELECT * FROM EMPLOYEES WHERE LASTNAME LIKE :ARG OR FIRSTNAME LIKE :ARG",
+        resultClass = Employee.class
+)
 @NamedQuery(
         name = "Employee.findEmployeeByName",
         query = "FROM Employee WHERE lastname LIKE :LASTNAME"
@@ -55,7 +60,6 @@ public class Employee {
 
         return companies;
     }
-
 
     public void setCompanies(List<Company> companies) {
         this.companies = companies;
