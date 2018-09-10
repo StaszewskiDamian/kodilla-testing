@@ -2,6 +2,7 @@ package com.kodilla.testing.shape;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 
 public class ShapeCollectorTestSuite {
@@ -20,7 +21,7 @@ public class ShapeCollectorTestSuite {
         Assert.assertEquals(1, shapeCollector.showFigures());
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void testRemoveFigure() {
         //given
         Shape square = new Square(5);

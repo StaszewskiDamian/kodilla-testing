@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9779d7ab-5dca-4de4-a7cc-ed0af64bada6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-jdbc/out/test/classes/com/kodilla/jdbc/StoredProcTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-jdbc/out/test/classes/com/kodilla/jdbc/StoredProcTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-sudoku/out/test/classes/com/kodilla/sudoku/SudokuTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-sudoku/out/test/classes/com/kodilla/sudoku/SudokuTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape/ShapeCollectorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape/ShapeCollectorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,6 +60,9 @@
     <ignored path="$PROJECT_DIR$/kodilla-patterns2/.gradle/" />
     <ignored path="$PROJECT_DIR$/kodilla-patterns2/build/" />
     <ignored path="$PROJECT_DIR$/kodilla-patterns2/out/" />
+    <ignored path="$PROJECT_DIR$/kodilla-testing2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kodilla-testing2/build/" />
+    <ignored path="$PROJECT_DIR$/kodilla-testing2/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,38 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchFacade.java">
+      <file leaf-file-name="GoogleTestingApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,20 +119,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
+      <file leaf-file-name="EBayTestingApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="204">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoredProcTestSuite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java">
+      <file leaf-file-name="CrudAppTestingApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="381">
+              <caret line="25" selection-start-line="24" selection-start-column="7" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrudAppTestSuite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookTestingApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,6 +195,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -315,6 +353,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":kodilla-sudoku" />
                 <option name="path" value="$PROJECT_DIR$/kodilla-sudoku" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":kodilla-testing2" />
+                <option name="path" value="$PROJECT_DIR$/kodilla-testing2" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -2503,11 +2545,142 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/kodilla-testing2">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':kodilla-testing2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':kodilla-testing2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':kodilla-testing2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':kodilla-testing2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':kodilla-testing2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':kodilla-testing2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':kodilla-testing2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':kodilla-testing2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':kodilla-testing2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kodilla-testing2" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="16877537600774" />
+        <entry key="$PROJECT_DIR$" value="18415492899960" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1943543070" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
@@ -2548,7 +2721,8 @@
         <entry key="$PROJECT_DIR$/kodilla-testing/build.gradle" value="3973852010" />
         <entry key="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/kodilla-testing/settings.gradle" value="2985983785" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3261602406" />
+        <entry key="$PROJECT_DIR$/kodilla-testing2/build.gradle" value="1910751398" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2846718204" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2611,6 +2785,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/kodilla-sudoku" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/kodilla-testing2">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/kodilla-testing2" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -3382,19 +3563,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/newhrsystem/CompanySalaryProcessor.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/newhrsystem/Employee.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/newhrsystem/SalaryProcessor.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/oldhrsystem/SalaryCalculator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/oldhrsystem/Workers.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdaptee.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdapter.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/AbstractPizzaOrderDecorator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/BasicPizza.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/ExtraCheesDecorator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/IngredientsDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrder.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" />
@@ -3433,6 +3601,19 @@
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
         <option value="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/Test.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape/ShapeCollectorTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/build.gradle" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" />
       </list>
     </option>
   </component>
@@ -3445,7 +3626,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="1304" />
     <option name="height" value="768" />
   </component>
@@ -3455,8 +3637,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -3468,52 +3648,93 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="testing2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing2" type="462c0819:PsiDirectoryNode" />
+              <item name="crudapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-testing2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing2" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-testing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Java/projekty/kodilla-testing/kodilla-patterns2/build.gradle&#10;IOException&#9;PSI&#9;JAVA://java.io.IOException" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -3529,15 +3750,21 @@
       <recent name="com.kodilla.patterns2.observer.forum" />
       <recent name="com.kodilla.patterns2.aop.calculator" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.kodilla.good.patterns.challenges.Food2Door" />
       <recent name="com.kodilla.testing.shape" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\projekty\kodilla-testing\kodilla-testing\src\test\java\com\kodilla\testing\loop" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kodilla.good.patterns.challenges.airlines" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.testing.loop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3552,78 +3779,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StoredProcTestSuite.testUpdateBestsellers">
+  <component name="RunManager" selected="Application.FacebookTestingApp">
+    <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.ebay.EBayTestingApp" />
+      <module name="kodilla-testing2_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FacebookTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.facebook.FacebookTestingApp" />
+      <module name="kodilla-testing2_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.facebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GoogleTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.google.GoogleTestingApp" />
+      <module name="kodilla-testing2_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CompanyDaoTestSuite.testFindEmployeeByParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-hibernate_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite" />
-      <option name="METHOD_NAME" value="testFindEmployeeByParam" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SearchFacadeTestSuite.testFindCompanyByPartName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-hibernate_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.facade.SearchFacadeTestSuite" />
-      <option name="METHOD_NAME" value="testFindCompanyByPartName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SearchFacadeTestSuite.testFindEmployeeByPartName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-hibernate_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.facade.SearchFacadeTestSuite" />
-      <option name="METHOD_NAME" value="testFindEmployeeByPartName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration name="ShapeFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
@@ -3648,57 +3854,34 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StoredProcTestSuite.testUpdateBestsellers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-jdbc_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
-      <option name="METHOD_NAME" value="testUpdateBestsellers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StoredProcTestSuite.testUpdateVipLevels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-jdbc_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
-      <option name="METHOD_NAME" value="testUpdateVipLevels" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testLoopAndConditionalBreakpoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing.loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.loop" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.loop.testLoopAndConditionalBreakpoints" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -3752,25 +3935,55 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="testLoopAndConditionalBreakpoints.testLoop" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing.loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.loop" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.loop.testLoopAndConditionalBreakpoints" />
+      <option name="METHOD_NAME" value="testLoop" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="Spring Boot.KodillaRpsApplication" />
       <item itemvalue="Spring Boot.KodillaSpringApplication" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="JUnit.SearchFacadeTestSuite.testFindCompanyByPartName" />
-      <item itemvalue="JUnit.SearchFacadeTestSuite.testFindEmployeeByPartName" />
-      <item itemvalue="JUnit.CompanyDaoTestSuite.testFindEmployeeByParam" />
-      <item itemvalue="JUnit.StoredProcTestSuite.testUpdateVipLevels" />
-      <item itemvalue="JUnit.StoredProcTestSuite.testUpdateBestsellers" />
+      <item itemvalue="JUnit.testLoopAndConditionalBreakpoints" />
+      <item itemvalue="TestNG.testLoopAndConditionalBreakpoints.testLoop" />
+      <item itemvalue="Application.GoogleTestingApp" />
+      <item itemvalue="Application.EBayTestingApp" />
+      <item itemvalue="Application.FacebookTestingApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StoredProcTestSuite.testUpdateBestsellers" />
-        <item itemvalue="JUnit.StoredProcTestSuite.testUpdateVipLevels" />
-        <item itemvalue="JUnit.SearchFacadeTestSuite.testFindEmployeeByPartName" />
-        <item itemvalue="JUnit.SearchFacadeTestSuite.testFindCompanyByPartName" />
-        <item itemvalue="JUnit.CompanyDaoTestSuite.testFindEmployeeByParam" />
+        <item itemvalue="Application.FacebookTestingApp" />
+        <item itemvalue="Application.EBayTestingApp" />
+        <item itemvalue="Application.GoogleTestingApp" />
+        <item itemvalue="JUnit.testLoopAndConditionalBreakpoints" />
+        <item itemvalue="TestNG.testLoopAndConditionalBreakpoints.testLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -3802,44 +4015,46 @@
       <workItem from="1535104410587" duration="927000" />
       <workItem from="1535473906358" duration="1544000" />
       <workItem from="1535556515041" duration="1687000" />
-      <workItem from="1535693515472" duration="1822000" />
+      <workItem from="1535693515472" duration="2590000" />
+      <workItem from="1536083763758" duration="21927000" />
+      <workItem from="1536586841628" duration="1183000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2018.08.29 at 16h 38m 33s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2018.08.29 at 16h 40m 21s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2018.08.29 at 16h 41m 07s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2018.08.29 at 16h 43m 00s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2018.08.29 at 16h 43m 50s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2018.08.29 at 16h 45m 29s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2018.08.29 at 16h 46m 14s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2018.08.29 at 16h 46m 53s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2018.08.31 at 06h 44m 21s.xml">
       <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2018.08.31 at 07h 09m 47s.xml">
       <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2018.08.31 at 13h 16m 14s.xml">
+      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckersTestSuite_testCheckersBuilder - 2018.09.04 at 19h 26m 53s.xml">
+      <configuration name="CheckersTestSuite.testCheckersBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoopAndConditionalBreakpoints_testLoop - 2018.09.04 at 19h 40m 22s.xml">
+      <configuration name="testLoopAndConditionalBreakpoints.testLoop" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testLoopAndConditionalBreakpoints_testLoop - 2018.09.04 at 19h 41m 06s.xml">
+      <configuration name="testLoopAndConditionalBreakpoints.testLoop" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testLoopAndConditionalBreakpoints_testLoop - 2018.09.04 at 19h 41m 35s.xml">
+      <configuration name="testLoopAndConditionalBreakpoints.testLoop" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testLoopAndConditionalBreakpoints - 2018.09.04 at 19h 41m 57s.xml">
+      <configuration name="testLoopAndConditionalBreakpoints" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckersTestSuite_testCheckersBuilder - 2018.09.05 at 10h 38m 22s.xml">
+      <configuration name="CheckersTestSuite.testCheckersBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoopAndConditionalBreakpoints - 2018.09.05 at 10h 38m 24s.xml">
+      <configuration name="testLoopAndConditionalBreakpoints" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488981000" />
+    <option name="totallyTimeSpent" value="512859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3851,8 +4066,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1304" height="768" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50238097" side_tool="true" weight="0.32817337" />
@@ -3864,18 +4078,17 @@
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="7" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39628482" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4063492" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32972136" />
-      <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.49920633" weight="0.21981424" />
       <window_info anchor="right" id="Palette&#9;" order="16" />
       <window_info id="Image Layers" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="22" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="20" weight="0.32972136" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49761903" visible="true" weight="0.26625386" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49761903" weight="0.26507938" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.49920633" weight="0.32972136" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985507" visible="true" weight="0.26825398" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.49920633" weight="0.32857144" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4985507" visible="true" weight="0.26768488" />
       <window_info anchor="right" id="Bean Validation" order="16" />
       <window_info id="Web" order="13" sideWeight="0.5014493" side_tool="true" weight="0.20714286" />
       <window_info anchor="right" id="Gradle" order="10" />
@@ -3884,7 +4097,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.32972136" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.49920633" weight="0.21904762" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -3969,134 +4183,47 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java</url>
-          <line>13</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/checkers/Checkers.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="n == 950" language="JAVA" />
+          <url>file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="68" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>n == 950</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/WatcherAOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
@@ -4318,9 +4445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4333,8 +4457,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="479">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/Test.java" />
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape/ShapeCollectorTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/checkers/FigureFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/checkers/Checkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="9" lean-forward="true" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="9" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/ForumTestSuiteOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/builder/checkers/CheckersTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="25" selection-start-line="24" selection-start-column="7" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -4406,7 +4664,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
